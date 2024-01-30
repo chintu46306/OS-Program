@@ -57,7 +57,7 @@ void LRU(int pages[], int n, int capacity) {
                     if(frame[k] < frame[least_recently_used])
                         least_recently_used = k;
                 }
-                frame[least_recently_used] = pages[i];
+                frame[least_recently_used] = pages[i] ;
             }
         }
     }
